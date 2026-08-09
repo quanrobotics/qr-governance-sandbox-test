@@ -1,0 +1,70 @@
+# ============================================================
+# QuanRobotics CODEOWNERS
+# Repository: qr-governance-sandbox
+# Purpose: Governance and branch-protection validation
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. DEFAULT OWNERSHIP
+# ------------------------------------------------------------
+# Any file not matched by a more specific rule is owned
+# by the QuanRobotics engineering maintainers.
+
+* @QuanRobotics/engineering-maintainers
+
+
+# ------------------------------------------------------------
+# 2. GITHUB GOVERNANCE
+# ------------------------------------------------------------
+# GitHub configuration, templates and governance files.
+
+/.github/ @QuanRobotics/platform-maintainers
+
+
+# GitHub Actions / CI/CD workflows.
+
+/.github/workflows/ @QuanRobotics/platform-maintainers
+
+
+# CODEOWNERS itself is controlled by the technical approvers.
+# This rule is intentionally more specific than /.github/.
+
+/.github/CODEOWNERS @QuanRobotics/technical-approvers
+
+
+# ------------------------------------------------------------
+# 3. SECURITY
+# ------------------------------------------------------------
+
+/SECURITY.md @QuanRobotics/platform-maintainers
+
+
+# ------------------------------------------------------------
+# 4. GOVERNANCE DOCUMENTATION
+# ------------------------------------------------------------
+
+/docs/REPOSITORY_RISK_CLASSIFICATION.md @QuanRobotics/platform-maintainers
+
+/docs/EMERGENCY_BRANCH_BYPASS.md @QuanRobotics/platform-maintainers @QuanRobotics/technical-approvers
+
+
+# ------------------------------------------------------------
+# 5. APPLICATION SOURCE
+# ------------------------------------------------------------
+
+/src/ @QuanRobotics/engineering-maintainers
+
+
+# ------------------------------------------------------------
+# 6. TESTS
+# ------------------------------------------------------------
+
+/tests/ @QuanRobotics/engineering-maintainers
+
+
+# ------------------------------------------------------------
+# 7. DEPENDENCY CONFIGURATION
+# ------------------------------------------------------------
+
+/requirements.txt @QuanRobotics/engineering-maintainers
