@@ -8,63 +8,64 @@
 # ------------------------------------------------------------
 # 1. DEFAULT OWNERSHIP
 # ------------------------------------------------------------
+
 # Any file not matched by a more specific rule is owned
 # by the QuanRobotics engineering maintainers.
 
-* @QuanRobotics/engineering-maintainers
+* @quanrobotics/engineering-maintainers
 
 
 # ------------------------------------------------------------
 # 2. GITHUB GOVERNANCE
 # ------------------------------------------------------------
-# GitHub configuration, templates and governance files.
 
-/.github/ @QuanRobotics/platform-maintainers
+# GitHub configuration, templates, and governance files.
+
+/.github/ @quanrobotics/platform-maintainers
 
 
 # GitHub Actions / CI/CD workflows.
 
-/.github/workflows/ @QuanRobotics/platform-maintainers
+/.github/workflows/ @quanrobotics/platform-maintainers
 
 
-# CODEOWNERS itself is controlled by the technical approvers.
-# This rule is intentionally more specific than /.github/.
+# CODEOWNERS itself is controlled by technical approvers.
 
-/.github/CODEOWNERS @QuanRobotics/technical-approvers
+/.github/CODEOWNERS @quanrobotics/technical-approvers
 
 
 # ------------------------------------------------------------
 # 3. SECURITY
 # ------------------------------------------------------------
 
-/SECURITY.md @QuanRobotics/platform-maintainers
+/SECURITY.md @quanrobotics/platform-maintainers
 
 
 # ------------------------------------------------------------
 # 4. GOVERNANCE DOCUMENTATION
 # ------------------------------------------------------------
 
-/docs/REPOSITORY_RISK_CLASSIFICATION.md @QuanRobotics/platform-maintainers
+/docs/REPOSITORY_RISK_CLASSIFICATION.md @quanrobotics/platform-maintainers
 
-/docs/EMERGENCY_BRANCH_BYPASS.md @QuanRobotics/platform-maintainers @QuanRobotics/technical-approvers
+/docs/EMERGENCY_BRANCH_BYPASS.md @quanrobotics/platform-maintainers @quanrobotics/technical-approvers
 
 
 # ------------------------------------------------------------
 # 5. APPLICATION SOURCE
 # ------------------------------------------------------------
 
-/src/ @QuanRobotics/engineering-maintainers
+/src/ @quanrobotics/engineering-maintainers
 
 
 # ------------------------------------------------------------
 # 6. TESTS
 # ------------------------------------------------------------
 
-/tests/ @QuanRobotics/engineering-maintainers
+/tests/ @quanrobotics/engineering-maintainers
 
 
 # ------------------------------------------------------------
 # 7. DEPENDENCY CONFIGURATION
 # ------------------------------------------------------------
 
-/requirements.txt @QuanRobotics/engineering-maintainers
+/requirements.txt @quanrobotics/engineering-maintainers
