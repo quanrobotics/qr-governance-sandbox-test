@@ -7,7 +7,7 @@ problem it addresses.
 
 Example:
 
-`<repository-name>` provides <capability> for <QuanRobotics system/project>.
+`<repository-name>` provides `<capability>` for `<QuanRobotics system/project>`.
 
 ---
 
@@ -31,11 +31,11 @@ Example:
 
 **Status:** <Governance Sandbox / Experimental / Research Prototype / Research Baseline / Internal Alpha / Beta / Production Ready>
 
-Explain the current maturity briefly.
+Briefly explain the current maturity level.
 
 Example:
 
-This repository is currently a research prototype and must not be treated
+This repository is currently a research prototype and should not be treated
 as production-ready without additional validation.
 
 ---
