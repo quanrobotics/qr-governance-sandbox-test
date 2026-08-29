@@ -1,7 +1,6 @@
 version: 2
 
 updates:
-  # Python dependencies
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
@@ -9,7 +8,6 @@ updates:
       day: "monday"
     open-pull-requests-limit: 5
 
-  # GitHub Actions dependencies
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
