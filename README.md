@@ -1,2 +1,4 @@
-# qr-governance-sandbox-test
-Non-confidential sandbox for validating QuanRobotics GitHub governance, pull-request, CI, CODEOWNERS, and branch-protection controls.
+## Governance Template Validation
+
+This repository is used to validate the organization-wide QuanRobotics
+issue, pull-request, contribution, security, and review standards.
